@@ -1,0 +1,25 @@
+.center {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#banner {
+    font-size: 50px;
+}
+
+#clock {
+    font-size: 40px;
+    background-color: orange;
+    padding: 20px 50px;
+    margin-top: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#clock:hover {
+    background-color: white;
+    color: orange    
+}
