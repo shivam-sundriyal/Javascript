@@ -1,0 +1,25 @@
+#container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#btn-container {
+    display: inline;
+}
+
+button {
+    margin: 15px;    
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+    border: black solid 2px;
+    cursor: pointer;
+}
+
+
+button:hover {
+    background-color: #807d7d;
+    color: #fff;
+}
