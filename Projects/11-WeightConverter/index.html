@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weight Converter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav>
+        <a href="../index.html" aria-current="page">Home</a>
+        <a target="_blank"
+            href="https://www.udemy.com/course/javascript-20-projects-in-20-days-html-css-javascript/">Udemy
+            Course</a>
+    </nav>
+
+    <div class="container">
+        <form action="">
+            <h1>Weight Converter</h1>
+            <label for="weight-converter">Select : </label>
+            <select name="weight-converter" id="weight-converter" class="weight-converter">
+                <option value="kg-to-lbs" class="kg-to-lbs">KG to LBS</option>
+                <option value="lbs-to-kg" class="lbs-to-kg">LBS to KG</option>
+            </select>
+            <input type="text" placeholder="Enter your weight here">
+            <div id="converted-weight"></div>
+            <button class="convert" type="submit">Convert</button>            
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
